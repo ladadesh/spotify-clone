@@ -1,0 +1,22 @@
+.sidebar {
+  height: 100vh;
+  flex: 0.2;
+  background-color: #040404;
+  color: white;
+  min-width: 230px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+/* flex 0.2 will occupy 20% of screen and remaining must be given body i.e. 80% */
+
+.sidebar__logo {
+  margin-right: auto;
+  height: 70px;
+  padding: 10px;
+}
+
+.sidebar__title {
+  padding: 5px;
+  margin-left: 10px;
+  font-size: 15px;
+}
